@@ -8,31 +8,31 @@ namespace GA_Condition_Ishak
         static void Main(string[] args)
 
         {
-            //Console.WriteLine("Checking conditions!");
+            Console.WriteLine("Checking conditions!");
 
-            //int number = 6;
+            int number = 6;
 
-            //if (number == 5)
-            //{
-            //    Console.WriteLine("Number is equal to 5");
-            //}
-            //else if (number > 5)
+            if (number == 5)
+            {
+                Console.WriteLine("Number is equal to 5");
+            }
+            else if (number > 5)
 
-            //{
-            //    Console.WriteLine("Numbe is greater than 5");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Number is less than 5");
-            //}
+            {
+                Console.WriteLine("Numbe is greater than 5");
+            }
+            else
+            {
+                Console.WriteLine("Number is less than 5");
+            }
             int temperature = 75;
             string weatherInfo = "";
 
-            if (temperature > 180) 
+            if (temperature > 180)
             {
                 weatherInfo = "It's a hot day!";
             }
-            else if (temperature > 60) 
+            else if (temperature > 60)
             {
                 weatherInfo = "It's a pleasant day.";
             }
@@ -42,8 +42,8 @@ namespace GA_Condition_Ishak
             }
 
             Console.WriteLine(weatherInfo);
-                
-            
+
+
 
 
         }
